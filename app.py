@@ -89,7 +89,7 @@ def truncate_mysql_table():
 def send_email(entry_count, entry_time):
     from_email = "todolistbyhamja@gmail.com"
     to_email = "kinelly42@gmail.com"
-    password = "srmq clzn ycrb moum"
+    password = ""
 
     msg = MIMEMultipart()
     msg['From'] = from_email
